@@ -12,6 +12,15 @@
     <div class="video-container">
         <video src="video/bbb.mp4" autoplay muted></video>
         <div class="controls-container">
+            <div class="progress-controls">
+                <div class="progress-bar">
+                    <div class="watched-bar"></div>
+                    <div class="playhead"></div>
+                </div>
+                <div class="time-remaining">
+                    00:00
+                </div>
+            </div>
             <div class="controls">
                 <button>
                     <svg class="playing" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -44,7 +53,7 @@
                         <line x1="17" y1="9" x2="23" y2="15"></line>
                     </svg>
                 </button>
-                <p>Big Buck Bunny</p>
+                <p class="title">Big Buck Bunny</p>
                 <button>
                     <svg viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"></circle>
